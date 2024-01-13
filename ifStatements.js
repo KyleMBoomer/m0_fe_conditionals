@@ -7,11 +7,19 @@
 // Right now, the program will print out both "I have enough money for a gumball" and "I don't have enough money for a gumball". 
 // Write a conditional statement that prints only one or the other.
 // Experiment with manipulating the value held within numQuarters to make sure both conditions can be achieved.
-
+//Example below illustrates no gumball:
 var numQuarters = 0;
+var gumball = 2
+if (numQuarters >= gumball) { console.log("I have enough money for a gumball");
+} else (numQuarters < gumball); { 
+    console.log("I don't have enough money for a gumball"); }
+    //Example below illustrates yes gumball:
+    var numQuarters = 2;
+var gumball = 2
+if (numQuarters >= gumball) { console.log("I have enough money for a gumball");
+} else (numQuarters < gumball); { 
+    console.log("I don't have enough money for a gumball"); }
 
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
 
 
 // CHALLENGE 2
@@ -28,4 +36,17 @@ console.log("I don't have enough money for a gumball");
 
 var cupsOfFlour = 1;
 var hasSauce = true;
-
+if (cupsOfFlour && hasSauce); {
+     console.log ("I cannot make pizza");}
+var cupsOfFlour = 5;
+var hasSauce = false;
+if (cupsOfFlour && hasSauce); {
+console.log ("I cannot make pizza");}
+var cupsOfFlour = 2;
+var hasSauce = true;
+if (cupsOfFlour && hasSauce); {
+console.log ("I can make pizza");}
+var cupsOfFlour = 3;
+var hasSauce = true;
+if (cupsOfFlour && hasSauce); {
+console.log ("I can make pizza");}
